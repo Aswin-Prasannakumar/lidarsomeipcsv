@@ -7,3 +7,4 @@ in linker, additional dependencies, set vsomeip3.lib;ws2_32.lib;
 Also if warning for code 4996 appears, in properties, c/c++, advanced, disable specific warnings set to 4996
 copy the csv file lidar_data.csv in any place and update the location in the publisher .sln
 change the replay timing to false if there is no need to simulate the actual time between frames
+run the subscriber.exe in sunscriber-x64-lidar_subscriber.exe first. then run the publisher.sln file.
