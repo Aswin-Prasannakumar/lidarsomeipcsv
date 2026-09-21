@@ -5,3 +5,4 @@ Language set it as ISO C++ 17
 In the linker, General set, additional library directories to C:\vsomeip_install\lib
 in linker, additional dependencies, set vsomeip3.lib;ws2_32.lib;
 Also if warning for code 4996 appears, in properties, c/c++, advanced, disable specific warnings set to 4996
+copy the csv file lidar_data.csv in any place and update the location in the publisher .sln
