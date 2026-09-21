@@ -6,3 +6,4 @@ In the linker, General set, additional library directories to C:\vsomeip_install
 in linker, additional dependencies, set vsomeip3.lib;ws2_32.lib;
 Also if warning for code 4996 appears, in properties, c/c++, advanced, disable specific warnings set to 4996
 copy the csv file lidar_data.csv in any place and update the location in the publisher .sln
+change the replay timing to false if there is no need to simulate the actual time between frames
