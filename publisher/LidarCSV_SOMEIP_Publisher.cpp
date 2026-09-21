@@ -1,10 +1,5 @@
 // ============================================================================
 // LidarCSV_SOMEIP_Publisher.cpp
-//
-// Standalone CSV -> SOME/IP LiDAR publisher
-//
-// NO SCANeR DEPENDENCY.
-//
 // CSV format:
 //   time,rayId,X,Y,Z,intensity
 //
@@ -59,9 +54,8 @@
 // CONFIGURATION
 // ============================================================================
 
-// Change this if required.
+// Change this.
 //
-// Your current file:
 // D:\Work_CARS\Lidar\data\lidar_data.csv
 //
 static const std::string CSV_FILE =
