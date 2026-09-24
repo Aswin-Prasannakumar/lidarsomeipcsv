@@ -146,10 +146,6 @@ struct LidarFrame
 
 // ============================================================================
 // APPEND RAW BYTES
-//
-// This intentionally matches the serialization used by your SCANeR plugin.
-//
-// Your existing plugin uses the same raw-byte approach with push_bytes().
 // ============================================================================
 
 template <typename T>
@@ -278,10 +274,6 @@ static std::vector<uint8_t> build_payload(
 // Expected:
 //
 // time,rayId,X,Y,Z,intensity
-//
-// Example:
-//
-// 0.100426,0,7.09341,-0.30971,-0.31,0.013885
 //
 // ============================================================================
 
